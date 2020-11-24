@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    width: 100%;  
+    flex: 1 1 auto;
+}
+
+.content {
+    background-color: #f0edd3;
+    flex-grow: 5;
+}
+
+nav, aside {
+    flex: 1;
+    background-color: #835b7c;
+    width: 100px;
+}
+ 
+header, footer {
+    height: 50px;
+    background-color: #ddb0d2;
+    flex-grow: 0;
+}
